@@ -1,0 +1,5 @@
+python-dotenv==1.0.0
+Flask==3.0.0
+pymilvus
+sentence-transformers==2.2.2
+huggingface_hub==0.23.2
