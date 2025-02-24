@@ -1,18 +1,20 @@
 # rag-llm
 
+`chmod +x standalone_embed.sh`
+
+`bash standalone_embed.sh start`
+
+`docker exec -it ollama_service ollama run llama3.2`
+
+
+
+
 ### run milvus db
 
 - https://milvus.io/docs/install_standalone-docker.md
 - curl -sfL https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh
 - bash standalone_embed.sh start
 
-### run ollama
-
--
--
--
-
-Test
 
 ```
 curl -X POST http://localhost:11434/v1/chat/completions \

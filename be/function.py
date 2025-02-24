@@ -42,7 +42,6 @@ def prompt_generation(reference, question, chat_history_json, use_history, model
         Reference: {reference}
         QUESTION: {question}
         '''
-
         - ตอบเป็นภาษาไทยครับ
         - หลีกเลี่ยงบรรทัดใหม่ให้มากที่สุด
         - ตอบแบบสั้นและกระชับ
@@ -52,7 +51,7 @@ def prompt_generation(reference, question, chat_history_json, use_history, model
         'ช่วยเหลpler' ควรเป็น 'ช่วยเหลือ', 
         "ขอแsorry" ควรเป็น 'ขอโทษ'
         "อัพเดตข้อมลัพทัTOAUTOMATICALLY" ควรเป็น "อัพเดตข้อมูลอัตโนมัติ"
-        - ห้ามใช้ข้อมูลใดๆ นอกเหนือ "referenc" ที่ให้ไว้</s> 
+        - ห้ามใช้ข้อมูลใดๆ นอกเหนือ "references" ที่ให้ไว้</s> 
 
         [INST] QUESTION: {question} [\\INST] ANSWER: """
 
